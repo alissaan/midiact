@@ -2,7 +2,7 @@
 #include <MIDIUSB.h>
 
 const uint8_t _channelCount = 3;
-const bool _useAbsoluteValues = true;
+const bool _useAbsoluteValues = false;
 int _currentChannel = 0;
 
 struct ButtonController
